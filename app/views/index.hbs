@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta property='og:locale' content='ja_JP'>
+  <meta property='og:type' content='article'>
+  <meta property='og:title' content='{{title}}'>
+  <meta property='og:type' content='website'>
+  <meta property='og:url' content='{{siteUrl}}'>
+  <meta property='og:description' content='{{description}}'>
+  <meta property="og:image" content="{{siteUrl}}/assets/img/og.jpg">
+  <meta property='og:site_name' content='{{siteName}}'>
+  <meta name="viewport" content="width=device-width">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/assets/css/sample.css">
+</head>
+<body>
+  {{> header}}
+  <main>
+    <h1>{{sample.title}}</h1>
+    <p>{{sample.body}}</p>
+  </main>
+  {{> footer}}
+</body>
+</html>

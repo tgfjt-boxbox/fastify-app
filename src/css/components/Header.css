@@ -1,0 +1,19 @@
+.Header {
+  color: #333;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
+}
+
+.Header-project {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.Header a {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px 15px;
+  text-decoration: none;
+}

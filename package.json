@@ -1,0 +1,35 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel watch serve",
+    "start": "nodemon server.js",
+    "serve": "node server",
+    "test": "node test/*.js",
+    "build:css": "suitcss src/css/sample.css app/assets/css/sample.css -m",
+    "watch:css": "suitcss src/css/sample.css app/assets/css/sample.css -w",
+    "watch": "npm-run-all --parallel watch:*",
+    "build": "npm-run-all --parallel build:*"
+  },
+  "dependencies": {
+    "date-fns": "^1.28.5",
+    "dotenv": "^4.0.0",
+    "fastify": "^0.39.1",
+    "fastify-helmet": "^1.0.3",
+    "fastify-static": "^0.6.0",
+    "handlebars": "^4.0.10",
+    "node-fetch": "^1.7.3",
+    "point-of-view": "^0.6.0",
+    "suitcss": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5",
+    "npm-run-all": "^4.1.1",
+    "shot": "^4.0.4",
+    "suitcss-preprocessor": "^4.0.0",
+    "tape": "^4.8.0"
+  }
+}
