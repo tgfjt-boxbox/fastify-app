@@ -1,0 +1,18 @@
+.Stream {
+  list-style: inside;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.Stream .Stream-item {
+  display: list-item;
+  line-height: inherit;
+  list-style: none;
+  border-top: 1px solid #ececec;
+  margin-bottom: 0;
+}
+
+.Stream .Stream-item:first-child {
+  border-top: 0;
+}

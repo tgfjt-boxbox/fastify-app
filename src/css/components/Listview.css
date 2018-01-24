@@ -1,0 +1,18 @@
+.Listview {
+  background: #fff;
+  padding: 8px 0;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.Listview-thumbnail {
+  padding-right: 8px;
+  width: 83px;
+}
+
+.Listview-title {
+  font-size: 14.222px;
+  font-size: .88889rem;
+  font-weight: 600;
+  word-break: break-all;
+}

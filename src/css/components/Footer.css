@@ -1,0 +1,22 @@
+.Footer {
+  position: relative;
+  width: 100%;
+}
+.Footer-copyright {
+  background-color: #000;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  text-align: center;
+}
+.Footer-logo {
+  display: inline-block;
+  height: 1.25rem;
+  margin-right: .5rem;
+  width: 4rem;
+  fill: white;
+}
+.Footer-text {
+  color: white;
+  display: inline-block;
+  font-size: 10px;
+}

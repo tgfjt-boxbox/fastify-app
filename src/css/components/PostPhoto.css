@@ -1,0 +1,17 @@
+.PostPhoto {
+  margin: 0 auto;
+  position: relative;
+}
+
+.PostPhoto img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (--lg-viewport) {
+  .PostPhoto img {
+    max-height: 690px;
+    max-width: 100%;
+  }
+}

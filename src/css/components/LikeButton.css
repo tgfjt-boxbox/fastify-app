@@ -1,0 +1,20 @@
+.LikeButton {
+  font-size: 12.641px;
+  font-size: .79012rem;
+  height: 30px;
+  line-height: 1;
+  padding: 0 .5rem;
+  width: auto;
+  background-color: white;
+  border: 1px solid var(--color-key);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: var(--color-key);
+  user-select: none;
+}
+
+.LikeButton svg {
+  height: 1rem;
+  width: 1rem;
+  fill: var(--color-key);
+}

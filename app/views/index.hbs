@@ -15,11 +15,46 @@
   <link rel="stylesheet" href="/assets/css/sample.css">
 </head>
 <body>
-  {{> header}}
-  <main>
-    <h1>{{sample.title}}</h1>
-    <p>{{sample.body}}</p>
+  {{> svg_icon }}
+  {{> header }}
+  <main role="main">
+    <div class="PostLayout">
+      <article class="Post">
+        {{#if post.main_photo.content}}
+        <figure class="Post-mainImage">
+          <div class="FlexEmbed">
+            <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+            <div class="FlexEmbed-content">
+              <img src="{{post.main_photo.content.photo.photo_urls.size1691}}" class="u-sizeFull">
+            </div>
+          </div>
+        </figure>
+        {{/if}}
+        <header class="Container">
+          <div class="u-posRelative">
+            <div class="Post-meta">
+              <time class="Post-date">{{post.published_elapsed_time}}</time>
+            </div>
+            <div class="Post-actions">
+              <div id="like">
+                <button type="button" class="LikeButton">
+                  <svg><use xlink:href="#s-like"></use></svg>
+                </button>
+              </div>
+            </div>
+            <h1 class="Post-title">{{post.title}}</h1>
+            <p class="Post-description">{{post.description}}</p>
+          </div>
+        </header>
+        <div class="Container">
+          <div id="content"></div>
+        </div>
+      </article>
+      <div id="widget"></div>
+    </div>
   </main>
-  {{> footer}}
+  {{> footer }}
+  <script id="post-props" type="application/json">{{{props}}}</script>
+  <script src="/assets/js/bundle.js"></script>
 </body>
 </html>

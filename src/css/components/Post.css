@@ -1,0 +1,74 @@
+.Post {
+  background: #fff;
+  line-height: 1.618;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  word-wrap: break-word;
+  grid-column: 1;
+  grid-row: 1;
+}
+.Post-title {
+  font-size: 22.781px;
+  font-size: 1.42383rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.Post-description {
+  color: #352629;
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+.Post-actions {
+  position: absolute;
+  top: 0;
+  right: .5rem;
+}
+.Post-meta {
+  padding: .55rem 0;
+}
+.Post-content {
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+}
+.Post-section {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.Post > header {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.Post-meta time {
+  color: #9b9b9b;
+  display: block;
+  font-size: 12.641px;
+  font-size: .79012rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.Post .FlexEmbed {
+  background-color: rgb(239, 244, 255);
+}
+
+@media (--lg-viewport) {
+  .Post-mainImage {
+    display: none;
+  }
+  .Post-meta time {
+    text-align: right;
+  }
+  .Post-actions {
+    top: initial;
+    bottom: -30px;
+  }
+  .Post-content {
+    border-top: 1px solid #dcdcdc;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+}

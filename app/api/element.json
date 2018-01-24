@@ -1,0 +1,36 @@
+{
+  "id":"139378",
+  "elements":[
+    {
+      "id":"1512821",
+      "type":1,
+      "description":"みんな大好きニコラス・ケイジ",
+      "layout":null,
+      "content":null
+    },
+    {
+      "id":"1512823",
+      "type":3,
+      "description":"",
+      "layout":1,
+      "content":{
+        "photo":{
+          "id":"511961",
+          "photo_urls":{
+            "o3":"https://www.placecage.com/c/650/650"
+          },
+          "height":650,
+          "width":650,
+          "is_vertical":false
+        }
+      }
+    },
+    {
+      "id":"1512824",
+      "type":2,
+      "description":"ゴーストライダー』シリーズや『キック・アス』にも出演している彼はアメコミが大好きです。\n芸名のケイジはMarvelの『ルーク・ケイジ』から名付けていますし（本名はニコラス・キム・コッポラで、あのフランシス・フォード・コッポラの親戚）、息子の名前はカル＝エル（スーパーマンの本名）です。",
+      "layout":null,
+      "content":null
+    }
+  ]
+}
